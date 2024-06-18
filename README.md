@@ -9,4 +9,16 @@ Resolve dependencies running:
 npm install
 ```
 
+### Testing functions
+To run tests you should run:
+```
+npm run test
+```
+
+### Deploying a contract
 Inside the deploy.js you need to set up provider information with a 12 word mnemonic and a link to a valid ethereum net
+
+Once you set things up you can run:
+```
+node deploy.js
+```
